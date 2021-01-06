@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("bimg2.jpg");
+}
+ .box{
+  max-width: 100%;
+ height: 100vh;
+ background-size: cover;
+ 
+ }
+ .hero4 {
+  color: white;
+  background: none;
+  font-family: 'Rancho', cursive;
+  align-items: center;
+  max-width: 600px;
+  position: absolute;
+  bottom: 38%;
+  
+  left: 2.5rem;
+}
+.txt{
+  background: none;
+  font-family: 'Rancho', cursive;
+  margin-left:2.2em;
+  width:100%;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.781);
+  border-width: 5px;
+  bottom: 20%; top: 10%;
+}
+ 
+ .hero3 {
+   color: white;
+   background: none;
+   font-family: 'Rancho', cursive;
+   align-items: center;
+   
+   max-width: 600px;
+   position: absolute;
+   bottom: 45%;
+ }
+
+ .hero2 {
+  color: white;
+  background: none;
+  font-family: 'Rancho', cursive;
+  align-items: center;
+  
+  max-width: 600px;
+  position: absolute;
+  bottom:50% ;
+}
+
+.hero1 {
+  color: white;
+  background: none;
+  font-family: 'Rancho', cursive;
+  align-items: center;
+  
+  max-width: 600px;
+  position: absolute;
+  bottom: 55%;
+}
+.text{
+  background: none;
+  font-family: 'Rancho', cursive;
+  margin-left:2.2em;
+  width:100%;
+  text-align: center;
+  
+
+}
+ @media only screen and (min-width: 400px) {
+  body {
+    
+    width: 100%;
+ 
+  }
+}
+.Head{
+ 
+  backdrop-filter: blur(5px);
+   width:17%;
+   height: 130px;
+   margin-top: 10px;
+  
+ 
+}
+ 
